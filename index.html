@@ -4,9 +4,11 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Cleverbird | Soaring Soon!</title>
+    <title>CleverBird | Soaring Soon!</title>
     <link rel="shortcut icon" href="cleverbird-no-text-removebg-preview.png" type="image/x-icon">
-    
+    <meta name="description"
+          content="CleverBird is a beautiful Bootstrap 4 template for product landing pages."/>
+
     <!--Inter UI font-->
     <link href="https://rsms.me/inter/inter-ui.css" rel="stylesheet">
 
@@ -326,7 +328,7 @@
         <div class="row mt-4">
             <div class="col-md-6 mx-auto text-center">
                 <h5 class="mb-4">Have questions?</h5>
-                <a href="#" class="btn btn-primary">Contact us</a>
+                <a href="#contact" class="btn btn-primary">Contact us</a>
             </div>
         </div>
     </div>
@@ -387,6 +389,143 @@
     </div>
 </section>
 
+
+<style>
+    /* Global Styles */
+    .fuck {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Quicksand", sans-serif;
+    }
+    .fuck {
+      background: linear-gradient(135deg, #000, #000000);
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      padding: 10px;
+    }
+    .contact-container {
+      max-width: 600px;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.85);
+      border-radius: 12px;
+      padding: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9);
+      backdrop-filter: blur(8px);
+    }
+    .contact-header {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+    .contact-header h1 {
+      font-size: 1.8rem;
+      margin-bottom: 8px;
+      color: #00ddff;
+    }
+    .contact-header p {
+      font-size: 0.85rem;
+      color: #b8b8b8;
+    }
+    .form-group {
+      margin-bottom: 15px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 0.8rem;
+      margin-bottom: 5px;
+    }
+    .form-group input,
+    .form-group textarea {
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 6px;
+      background: rgba(255, 255, 255, 0.1);
+      color: #fff;
+      font-size: 0.9rem;
+    }
+    .form-group textarea {
+      resize: none;
+      height: 100px;
+    }
+    .form-group input:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border: 1px solid #00ddff;
+    }
+    .contact-actions {
+      text-align: center;
+      margin-top: 15px;
+    }
+    .contact-actions button {
+      padding: 10px 20px;
+      font-size: 0.9rem;
+      color: #fff;
+      background: #00ddff;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      transition: all 0.3s ease;
+    }
+    .contact-actions button:hover {
+      background: #0095a5;
+    }
+    .contact-info {
+      margin-top: 30px;
+      text-align: center;
+    }
+    .contact-info p {
+      margin-bottom: 8px;
+      color: #bbb;
+      font-size: 0.8rem;
+    }
+    .contact-info a {
+      color: #00ddff;
+      text-decoration: none;
+      transition: all 0.3s ease;
+    }
+    .contact-info a:hover {
+      color: #0095a5;
+    }
+  </style>
+
+  <section id="contact" class="fuck">
+    <div class="contact-container">
+        <div class="contact-header">
+          <h1>Contact Us</h1>
+          <p>We’d love to hear from you. Reach out with your questions or feedback!</p>
+        </div>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Your name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Your email" required>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" placeholder="Your message" required></textarea>
+          </div>
+          <div class="contact-actions">
+            <button type="submit">Submit</button>
+          </div>
+        </form>
+        <div class="contact-info">
+          <p>Email: <a href="mailto:support@nesthub.com">support@cleverbirdco.com</a></p>
+        </div>
+      </div>
+    
+  </section>
+
+
+
+
+
 <!--footer-->
 <footer class="py-6">
     <div class="container">
@@ -407,27 +546,6 @@
     <i class="fa fa-angle-up" aria-hidden="true"></i>
 </div>
 
-<!-- theme switcher (FOR DEMO ONLY - REMOVE FROM PRODUCTION)-->
-<div class="switcher-wrap">
-    <div class="switcher-trigger">
-        <span class="fa fa-gear"></span>
-    </div>
-    <div class="color-switcher">
-        <h6>Color Switcher</h6>
-        <ul class="mt-3 clearfix">
-            <li class="bg-teal active" data-color="default" title="Default Teal"></li>
-            <li class="bg-purple" data-color="purple" title="Purple"></li>
-            <li class="bg-blue" data-color="blue" title="Blue"></li>
-            <li class="bg-red" data-color="red" title="Red"></li>
-            <li class="bg-green" data-color="green" title="Green"></li>
-            <li class="bg-indigo" data-color="indigo" title="Indigo"></li>
-            <li class="bg-orange" data-color="orange" title="Orange"></li>
-            <li class="bg-cyan" data-color="cyan" title="Cyan"></li>
-            <li class="bg-yellow" data-color="yellow" title="Yellow"></li>
-            <li class="bg-pink" data-color="pink" title="Pink"></li>
-        </ul>
-    </div>
-</div>
 
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
